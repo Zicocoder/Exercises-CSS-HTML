@@ -65,16 +65,23 @@
 </ul>
 <h3>Important Note on Closing Tags</h3>
 <p>
-  Most HTML elements must be opened and then closed, like 
-  <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code> or 
-  <code>&lt;li&gt;List item&lt;/li&gt;</code>.  
-  If you forget to close them, browsers may still try to display the page, but the result can be unpredictable.  
+  Most HTML elements come in pairs: an <strong>opening tag</strong> and a <strong>closing tag</strong>.  
+  The closing tag is written the same way as the opening tag, but it starts with a slash <code>/</code>.  
+</p>
+<p>
+  Example:  
+  <code>&lt;p&gt;This is a paragraph&lt;/p&gt;</code>  
+  - <code>&lt;p&gt;</code> = opening tag  
+  - <code>&lt;/p&gt;</code> = closing tag (notice the <code>/</code>)  
+</p>
+<p>
+  If you forget the <code>/</code> in the closing tag, the browser may guess where the element ends, but the result can be unpredictable.
 </p>
 <p>
   Some elements, called <strong>void elements</strong>, do not have closing tags at all.  
   Examples: <code>&lt;br&gt;</code> (line break), <code>&lt;img&gt;</code> (image), <code>&lt;hr&gt;</code> (horizontal rule), and <code>&lt;meta&gt;</code>.  
-  These are always written as a single tag.
+  These are always written as a single tag without <code>/</code>.
 </p>
-</p>
+
 </body>
 </html>
