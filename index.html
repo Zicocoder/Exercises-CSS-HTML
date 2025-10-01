@@ -153,6 +153,31 @@
   - The following rows use <code>&lt;td&gt;</code> for normal table cells.  
   - The <code>border="1"</code> attribute adds a simple border (later we can use CSS for styling).
 </p>
+<h2>Exercise 8: Forms</h2>
+
+<p>
+  Forms in HTML are used to collect user input.  
+  The <code>&lt;form&gt;</code> element wraps the form, and inside it you place input fields and buttons.  
+</p>
+
+<h3>Example Form</h3>
+<form>
+  <label for="username">Username:</label><br>
+  <input type="text" id="username" name="username" placeholder="Enter username"><br><br>
+
+  <label for="password">Password:</label><br>
+  <input type="password" id="password" name="password" placeholder="Enter password"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+<p>
+  In this example:  
+  - <code>&lt;label&gt;</code> tags describe the input fields.  
+  - <code>&lt;input type="text"&gt;</code> creates a single-line text box.  
+  - <code>&lt;input type="password"&gt;</code> hides the characters typed in.  
+  - <code>&lt;input type="submit"&gt;</code> creates a button to submit the form.  
+</p>
 
 </body>
 </html>
